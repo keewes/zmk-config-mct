@@ -245,22 +245,22 @@ include:
 
   ### SPLITKB AURORA SOFLE START ###
   # nice!oled splitkb_aurora_sofle
-  - board: nice_nano_v2
-    shield: splitkb_aurora_sofle_left nice_oled
-    artifact-name: nice_splitkb_aurora_sofle_left_oled
-    snippet: studio-rpc-usb-uart
+  # - board: nice_nano_v2
+  #   shield: splitkb_aurora_sofle_left nice_oled
+  #   artifact-name: nice_splitkb_aurora_sofle_left_oled
+  #   snippet: studio-rpc-usb-uart
+
+  # - board: nice_nano_v2
+  #   shield: splitkb_aurora_sofle_right nice_oled
+  #   artifact-name: nice_splitkb_aurora_sofle_right_oled
 
   - board: nice_nano_v2
-    shield: splitkb_aurora_sofle_right nice_oled
-    artifact-name: nice_splitkb_aurora_sofle_right_oled
-
-  - board: nice_nano_v2
-    shield: splitkb_aurora_sofle_left nice_view
+    shield: splitkb_aurora_sofle_left nice_view_adapter nice_view
     artifact-name: nice_splitkb_aurora_sofle_left_nice
     snippet: studio-rpc-usb-uart
 
   - board: nice_nano_v2
-    shield: splitkb_aurora_sofle_right nice_view
+    shield: splitkb_aurora_sofle_right nice_view_adapter nice_view
     artifact-name: nice_splitkb_aurora_sofle_right_nice
 
   # peripheral_left
@@ -288,9 +288,9 @@ include:
   - board: nice_nano_v2
     shield: settings_reset
     artifact-name: nice_settings_reset
-  - board: seeeduino_xiao_ble
-    shield: settings_reset
-    artifact-name: xiao_settings_reset
+  # - board: seeeduino_xiao_ble
+  #   shield: settings_reset
+  #   artifact-name: xiao_settings_reset
   # - board: puchi_ble_v1
   #   shield: settings_reset
   #   artifact-name: puchi_settings_reset
