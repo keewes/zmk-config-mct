@@ -15,9 +15,9 @@
     chain-length = <35>; // Uncomment if using both per-key and underglow LEDs
     // chain-length = <29>; // Uncomment if using only per-key LEDs.
 };
- */
 
-/ {
+
+ / {
     keymap {
         compatible = "zmk,keymap";
 
